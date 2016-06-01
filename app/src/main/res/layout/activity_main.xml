@@ -37,7 +37,8 @@
                 android:ems="10"
                 android:id="@+id/addressBar"
                 android:layout_weight="1"
-                android:contentDescription="Address Bar" />
+                android:contentDescription="Address Bar"
+                android:textSize="12sp" />
 
             <Button
                 android:text="Go"
@@ -51,7 +52,8 @@
         <WebView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:id="@+id/webView" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
